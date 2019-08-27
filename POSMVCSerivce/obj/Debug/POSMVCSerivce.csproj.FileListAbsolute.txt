@@ -1,0 +1,12 @@
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\POSMVCSerivce.dll.config
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\POSMVCSerivce.dll
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\POSMVCSerivce.pdb
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\obj\Debug\POSMVCSerivce.csprojAssemblyReference.cache
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\obj\Debug\POSMVCSerivce.csproj.CoreCompileInputs.cache
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\obj\Debug\POSMVCSerivce.dll
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\obj\Debug\POSMVCSerivce.pdb
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\EntityFramework.dll
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\EntityFramework.SqlServer.dll
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\EntityFramework.xml
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\bin\EntityFramework.SqlServer.xml
+C:\Users\jn185117\source\repos\POSMVCSerivce\POSMVCSerivce\obj\Debug\POSMVCSerivce.csproj.CopyComplete

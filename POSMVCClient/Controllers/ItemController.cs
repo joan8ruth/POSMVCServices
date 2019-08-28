@@ -65,11 +65,50 @@ namespace POSMVCClient.Controllers
 
         }
 
-        //public ActionResult DeleteItem()
-        //{
+        public ActionResult TotalAmount()
+        {
+            int i = 0;
+            decimal sum = 0;
+            int numberOfItems = itemsList.Count;
+            for (i = 0; i < numberOfItems; i++)
+            {
+                sum = sum + itemsList[i].Price;
+               
+            }
 
-        //    itemsList.
-        //}
+            ViewBag.Amount = sum;
+
+            return PartialView();
+
+        }
+
+        public ActionResult Delete(string id)
+        {
+            int j = 0;
+            int i = 0;
+            int numberOfItems = itemsList.Count;
+            List<ServiceReference1.Items> itemsDummyList = new List<ServiceReference1.Items>();
+            //itemsDummyList.AddRange(itemsList);
+
+            for( i=0;i<numberOfItems;i++)
+            {
+               
+                if(string.Equals(itemsList[i].ItemId,id)&&j==0)
+                {
+                    j++;
+                    continue;
+                }
+                else
+                {
+                    itemsDummyList.Add(itemsList[i]);
+                }
+            }
+
+            itemsList.Clear();
+            itemsList.AddRange(itemsDummyList);
+            itemsDummyList.Clear();
+            return RedirectToAction("Index", "Item");
+        }
 
         public ActionResult FinishBilling()
         {

@@ -1,10 +1,9 @@
 ﻿@model IEnumerable<POSMVCClient.ServiceReference1.Items>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <table class="table">
     <tr>
+        
         <th>
             @Html.DisplayNameFor(model => model.ItemId)
         </th>
@@ -19,21 +18,22 @@
 
     @foreach (var item in Model)
     {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ItemId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
 
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
+            @Html.ActionLink("Delete", "Delete", new {  id=item.ItemId  })
+        </td>
+    </tr>
     }
 
 
